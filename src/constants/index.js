@@ -114,6 +114,48 @@ const technologies = [
   },
 ];
 
+const educations = [
+  {
+    title: "Software Engineering",
+    company_name: "Ufa University of Science and Technology",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "September 2020 - July 2024",
+    points: [
+      "Graduating with honors.",
+      "Mastering many programming skills like OOP, A&DS and more.",
+      "Gaining practical experience in projects we buid during semesters.",
+      "Leading groups of students in building projects.",
+    ],
+  },
+  {
+    title: "Frontend Career path",
+    company_name: "Scrimba",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "May 2021 - September 2021",
+    points: [
+      "Learning fundamentals of web development.",
+      "Learning how to build highly responsive websites.",
+      "Diving deep into React.js, functional and class components, hooks, higher order components, etc. .",
+      "Building assignment projects.",
+    ],
+  },
+  {
+    title: "Project Managment Certificate",
+    company_name: "Google",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2022 - June 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+];
+
 const experiences = [
   {
     title: "React.js Developer",
@@ -262,4 +304,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, educations, testimonials, projects };
