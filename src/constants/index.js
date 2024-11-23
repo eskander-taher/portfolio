@@ -41,174 +41,144 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+	{
+		title: "Full-stack Developer",
+		icon: web,
+	},
+	{
+		title: "Frontend Developer",
+		icon: mobile,
+	},
+	{
+		title: "Backend Developer",
+		icon: backend,
+	},
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+	{
+		name: "HTML 5",
+		icon: html,
+	},
+	{
+		name: "CSS 3",
+		icon: css,
+	},
+	{
+		name: "JavaScript",
+		icon: javascript,
+	},
+	{
+		name: "TypeScript",
+		icon: typescript,
+	},
+	{
+		name: "React JS",
+		icon: reactjs,
+	},
+	{
+		name: "Redux Toolkit",
+		icon: redux,
+	},
+	{
+		name: "Tailwind CSS",
+		icon: tailwind,
+	},
+	{
+		name: "Node JS",
+		icon: nodejs,
+	},
+	{
+		name: "MongoDB",
+		icon: mongodb,
+	},
+	{
+		name: "Three JS",
+		icon: threejs,
+	},
+	{
+		name: "git",
+		icon: git,
+	},
+	{
+		name: "figma",
+		icon: figma,
+	},
+	{
+		name: "docker",
+		icon: docker,
+	},
 ];
 
 const educations = [
-  {
-    title: "Software Engineering",
-    company_name: "Ufa University of Science and Technology",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "September 2020 - July 2024",
-    points: [
-      "Graduating with honors.",
-      "Mastering many programming skills like OOP, A&DS and more.",
-      "Gaining practical experience in projects we buid during semesters.",
-      "Leading groups of students in building projects.",
-    ],
-  },
-  {
-    title: "Frontend Career path",
-    company_name: "Scrimba",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "May 2021 - September 2021",
-    points: [
-      "Learning fundamentals of web development.",
-      "Learning how to build highly responsive websites.",
-      "Diving deep into React.js, functional and class components, hooks, higher order components, etc. .",
-      "Building assignment projects.",
-    ],
-  },
-  {
-    title: "Project Managment Certificate",
-    company_name: "Google",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - June 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+	{
+		title: "Masters in Data Science",
+		company_name: "RUDN University",
+		icon: "shopify",
+		iconBg: "#383E56",
+		date: "September 2023 - July 2025",
+		points: [
+			"Studying advanced topics in data science including machine learning, data mining, and statistical analysis.",
+			"Applying data science techniques to real-world problems and projects.",
+			"Collaborating with peers and faculty on research and practical applications of data science.",
+			"Developing proficiency in programming languages such as Python, R, and SQL for data analysis and modeling.",
+		],
+	},
+	{
+		title: "Bachelor's degree in Software Engineering",
+		company_name: "Ufa University of Science and Technology",
+		icon: starbucks,
+		iconBg: "#383E56",
+		date: "September 2019 - July 2023",
+		points: [
+			"Graduating with honors.",
+			"Mastering many programming skills like OOP, A&DS and more.",
+			"Gaining practical experience in projects we buid during semesters.",
+			"Leading groups of students in building projects.",
+		],
+	},
+	{
+		title: "Frontend Career path",
+		company_name: "Scrimba",
+		icon: tesla,
+		iconBg: "#E6DEDD",
+		date: "May 2021 - September 2021",
+		points: [
+			"Learning fundamentals of web development.",
+			"Learning how to build highly responsive websites.",
+			"Diving deep into React.js, functional and class components, hooks, higher order components, etc. .",
+			"Building assignment projects.",
+		],
+	},
 ];
 
 const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+	{
+		title: "Remote Full-stack Developer",
+		company_name: "CereSoftware",
+		icon: starbucks,
+		iconBg: "#383E56",
+		date: "March 2020 - April 2021",
+		points: [
+			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
+	{
+		title: "Full-stack Developer",
+		company_name: "Ufa University",
+		icon: tesla,
+		iconBg: "#E6DEDD",
+		date: "Jan 2021 - Feb 2022",
+		points: [
+			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
 ];
 
 const testimonials = [
